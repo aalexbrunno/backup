@@ -1,0 +1,68 @@
+/* *********************************************************************** *
+*    PROGRAM_NAME, VERSION                                                 *
+*    BRIEF_DESCRIPTION                                                     *
+*                                                                          *
+*  Copyright (C) 2020 by Alex Bruno Seabra                                 *
+*                                                                          *
+*    This program is free software; you can redistribute it and/or modify  *
+*    it under the terms of the GNU General Public License as published by  *
+*    the Free Software Foundation; either version 2 of the License, or     *
+*    (at your option) any later version.                                   *
+*                                                                          *
+*    This program is distributed in the hope that it will be useful,       *
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*    GNU General Public License for more details.                          *
+*                                                                          *
+*    You should have received a copy of the GNU General Public License     *
+*    along with this program; if not, write to the                         *
+*    Free Software Foundation, Inc.,                                       *
+*    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+*                                                                          *
+*  To contact the author, please write to:                                 *
+*  Name: Alex Bruno Seabra <aalexbrunno@gmail.com>                         *
+*  Webpage: http://beco.poli.br/~username                                  *
+*  Phone: (81) 98735-8802                                                  *
+* ************************************************************************ *
+* 
+*/
+
+          Chaves mais  importantes do compilador  gcc 
+
+
+1. -wall e -wextra essas chaves do compilador gcc mostram os erros no código do usuario a diferença entre ambas é que nem todos 
+   erros são mostrados na chave -wall sendo necessário usar a chave -wextra para ver esses erros.
+
+2. -o0 é uma chave que desliga a otimização e consequentemente diminue o tempo de compilação o código não se altera
+    ficando mais facil para fazer o debug.
+
+3. -o1 otimiza um pouco o código fazendo com que se reduza o seu tamanho e ganhando um pouco mais de velocidade.
+
+4. -o2 O otimiza mis que a chave anterior. GCC realiza quase todas as otimizações conhecidas que não envolvam o compromisso (tradeoff) entre velocidade-espaço.
+
+5. -o3 otimiza ainda mais que a chave anterior pois ele faz todas as otimizações do -02 e ainda mais.
+
+6. -os otimiza o tamanho do programa. Faz todas as otimizações necessarias para reduzir o espaço do programa.
+
+7. -ofast otimiza o tempo de execução do programa. o programa do usuario pede ficar maior devido a redução de algumas otimizações.
+
+8. -og otimiza sem atrapalhar o debug geralmente usada em programas muito grandes.
+
+9. -g ela liga as flegues de debug dentro do código salva varios itens que serve de passo a passo para ajudar no debug.
+
+10. -ggdb ele entende a chave -g que é usada no debugue de outros compiladores.
+
+11. -DMacro serve para ativar e desativar itens que dependem da macro 
+
+12. -S -masm  é usada para se ter um arquivo em assembly e o -masm é o tipo de asssembly que o usuario deseja
+
+13. -ansi irá ligar avisos  e erros para quaisquer usos da linguagem que o usuario fizer de modo 
+    incorreto segundo o comitê de organização ISO C89.
+
+14. -s remove todos os simbolos da tabela de simbolos para evitar que o código seja facilmente quebrado.
+-  
+15. -static é utilizada para o código não depender de biblioteca isso fará o código ficar um pouco maior.
+
+16. -shared serve para criar uma biblioteca compartilhada é utilizada quando um usuario deseja que outras pessoas compilem seus códigos usando sua 
+     biblioteca.
+

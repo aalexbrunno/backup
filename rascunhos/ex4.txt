@@ -1,0 +1,47 @@
+/* *********************************************************************** *
+*    PROGRAM_NAME, VERSION                                                 *
+*    BRIEF_DESCRIPTION                                                     *
+*                                                                          *
+*  Copyright (C) 2020 by Alex Bruno Seabra                                 *
+*                                                                          *
+*    This program is free software; you can redistribute it and/or modify  *
+*    it under the terms of the GNU General Public License as published by  *
+*    the Free Software Foundation; either version 2 of the License, or     *
+*    (at your option) any later version.                                   *
+*                                                                          *
+*    This program is distributed in the hope that it will be useful,       *
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*    GNU General Public License for more details.                          *
+*                                                                          *
+*    You should have received a copy of the GNU General Public License     *
+*    along with this program; if not, write to the                         *
+*    Free Software Foundation, Inc.,                                       *
+*    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+*                                                                          *
+*  To contact the author, please write to:                                 *
+*  Name: Alex Bruno Seabra <aalexbrunno@gmail.com>                         *
+*  Webpage: http://beco.poli.br/~username                                  *
+*  Phone: (81) 98735-8802                                                  *
+* ************************************************************************ *
+* */
+
+1-  Pegue o macaco; estepe e a chave.
+
+2-  Coloque o macaco sobre a lataria do carro.
+
+3-  Levante o macaco até que ele apoie o carro.
+
+4-  Retire a calota e os parafusos com a chave.
+
+5-  Retire o pneu murcho do eixo do carro.
+
+6-  Coloque o estepe no eixo do carro.
+
+7-  Coloque a calota e os parafusos com a chave.
+
+8-  Abaixe o macaco.
+
+9-  Retire o macaco da lataria do carro.
+
+10- Guarde o macaco; estepe e a chave.

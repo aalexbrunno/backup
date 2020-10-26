@@ -1,0 +1,53 @@
+/* *********************************************************************** *
+*    PROGRAM_NAME, VERSION                                                 *
+*    BRIEF_DESCRIPTION                                                     *
+*                                                                          *
+*  Copyright (C) 2020 by Alex Bruno Seabra                                 *
+*                                                                          *
+*    This program is free software; you can redistribute it and/or modify  *
+*    it under the terms of the GNU General Public License as published by  *
+*    the Free Software Foundation; either version 2 of the License, or     *
+*    (at your option) any later version.                                   *
+*                                                                          *
+*    This program is distributed in the hope that it will be useful,       *
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*    GNU General Public License for more details.                          *
+*                                                                          *
+*    You should have received a copy of the GNU General Public License     *
+*    along with this program; if not, write to the                         *
+*    Free Software Foundation, Inc.,                                       *
+*    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+*                                                                          *
+*  To contact the author, please write to:                                 *
+*  Name: Alex Bruno Seabra <aalexbrunno@gmail.com>                         *
+*  Webpage: http://beco.poli.br/~username                                  *
+*  Phone: (81) 98735-8802                                                  *
+* ************************************************************************ *
+* 
+*/
+
+algoritmo fah2cel;
+ 
+  variáveis
+ 
+      Tc : real;
+      Tf : real;
+ 
+  fim-variáveis
+
+/* a função principal recebe duas variáveis uma que irá conter o valor da temperatura em graus fahenheit e outra que vai sair com 
+ o valor correspondente na temperatura medida em graus celsius. Esse programa é um simples conversor de temperatura que
+ pode ser util em uma viagem quando o país de destino usa o sistema de medida em fahenheit.
+
+*/
+
+  início
+ 
+  imprima ("digite o valor da temperatura em fahenheit");
+      Tf := leia();
+      Tc := (Tf - 32) * 5 / 9;
+ 
+  imprima(" o resultado em celsius eh :", Tc);
+  fim
+
