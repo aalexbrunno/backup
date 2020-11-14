@@ -1,0 +1,58 @@
+# Travis build lifecycle:
+#
+#  1. OPTIONAL Install apt addons
+#  2. OPTIONAL Install cache components
+#  3. before_install
+#  4. install
+#  5. before_script
+#  6. script
+#  7. OPTIONAL before_cache (for cleaning up cache)
+#  8. after_success or after_failure
+#  9. OPTIONAL before_deploy
+# 10. OPTIONAL deploy
+# 11. OPTIONAL after_deploy
+# 12. after_script
+
+
+language: generic
+
+sudo: false
+
+os: linux
+
+#fail_fast: true
+
+#before_install:
+#    - sudo apt-get update -qq
+#    - sudo apt-get install -qq diffutils
+
+install: true
+
+#install: sudo apt-get install clang gcc
+
+# Multiple steps
+# install:
+#  - bundle install --path vendor/bundle
+#  - npm install
+
+compiler:
+    - gcc
+#    - clang
+
+script: 
+    - make -e travis SRC=sudoku999.c DEBUG=0
+    - ((FLAG=0)) ; ((I=-1)) ; while ((I<6)) ; do ((I=I+2)) ; echo "Running input $I, generating sudoku-output-solved-00$I.txt and sudoku-table-solved-00$I.txt counterparts..." ; ./sudoku999.x < sudoku-input-00$I.txt 2> sudoku-travis-file-00$I.txt > sudoku-travis-table-00$I.txt || ((FLAG=1)) ; done ; if [[ "$FLAG" == "1" ]] ; then false ; else true ; fi
+    - ((FLAG=0)) ; ((I=-1)) ; while ((I<6)) ; do ((I=I+2)) ; echo "Testing solution sudoku-output-solved-00$I.txt" ; diff -q sudoku-output-solved-00$I.txt sudoku-travis-file-00$I.txt || ((FLAG=1)) ; done ; if [[ "$FLAG" == "1" ]] ; then false ; else true ; fi
+    - ((FLAG=0)) ; ((I=-1)) ; while ((I<6)) ; do ((I=I+2)) ; echo "Testing solution sudoku-table-solved-00$I.txt" ; diff -q sudoku-table-solved-00$I.txt sudoku-travis-table-00$I.txt || ((FLAG=1)) ; done ; if [[ "$FLAG" == "1" ]] ; then false ; else true ; fi
+
+#script: 
+#    - make wrongfiles
+#    - make changerules
+#    - make wronglines
+#    - make rulenumber
+#    - make ruletwice
+
+notifications:
+    email: false
+    irc: "chat.freenode.net#contauto"
+
