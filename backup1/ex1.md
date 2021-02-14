@@ -78,7 +78,7 @@ Título: Falácias Lógicas
 
 ### Também chamada de omissão de dados. Mascarar os verdadeiros fatos
 
-* Exemplo: O segredo da minha força são os cabelos. É omissão de informação.
+*Exemplo: O segredo da minha força são os cabelos. É omissão de informação.
 
 # 14. Definição contraditória
 
