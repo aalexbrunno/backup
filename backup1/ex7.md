@@ -28,7 +28,7 @@
 */
 
 
-      # resenha da história do Linux
+      # resenha da história do Linux.
 
 O filme Revolution OS conta com maestria a história do sistema operacional GNU/LINUX desde sua criação até 
 seu desenvolvimento sobe a perspectiva de seus fundadores bem como as ideologias do software livre e do open 
