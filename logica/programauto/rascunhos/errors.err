@@ -1,0 +1,17 @@
+gam.c: In function ‘main’:
+gam.c:11:9: error: two or more data types in declaration specifiers
+     int char = x * a;
+         ^~~~
+gam.c:11:14: error: expected identifier or ‘(’ before ‘=’ token
+     int char = x * a;
+              ^
+gam.c:13:20: error: ‘r’ undeclared (first use in this function)
+     printf("%c\n", r);
+                    ^
+gam.c:13:20: note: each undeclared identifier is reported only once for each function it appears in
+gam.c:9:10: warning: unused variable ‘a’ [-Wunused-variable]
+     char a = 'i';
+          ^
+gam.c:8:9: warning: unused variable ‘x’ [-Wunused-variable]
+     int x = 5;
+         ^
