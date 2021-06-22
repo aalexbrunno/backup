@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{BM02b}
+{\sc Bos, V., and Mauw, S.}
+\newblock {\em A {\LaTeX{}} macro package for Message Sequence
+  Charts---Maintenance document---Describing {\mscpack} version~{\mscversion}},
+  June 2002.
+\newblock Included in MSC macro package distribution.
+
+\bibitem{BM02}
+{\sc Bos, V., and Mauw, S.}
+\newblock {\em A {\LaTeX{}} macro package for Message Sequence
+  Charts---Reference Manual---Describing {\mscpack} version~{\mscversion}},
+  June 2002.
+\newblock Included in MSC macro package distribution.
+
+\bibitem{BM02a}
+{\sc Bos, V., and Mauw, S.}
+\newblock {\em A {\LaTeX{}} macro package for Message Sequence Charts---User
+  Manual---Describing {\mscpack} version~{\mscversion}}, June 2002.
+\newblock Included in MSC macro package distribution.
+
+\bibitem{GSM97}
+{\sc Goossens, M., Rahtz, S., and Mittelbach, F.}
+\newblock {\em {T}he {\LaTeX} {G}raphics {C}ompanion}.
+\newblock Addison-Wesley, 1997.
+
+\bibitem{z120}
+{\sc ITU-TS}.
+\newblock {ITU-TS} {R}ecommendation {Z.120}: {M}essage {S}equence {C}hart
+  {(MSC)}.
+\newblock Geneva, 1997.
+
+\bibitem{Lam94}
+{\sc Lamport, L.}
+\newblock {\em {\LaTeX}---A Document Preparation System---User's Guide and
+  Reference Manual}, 2nd~ed.
+\newblock Adsison-Wesley, 1994.
+\newblock Updated for {\LaTeXe}.
+
+\bibitem{RudolphGrabowskiGraubmann96}
+{\sc Rudolph, E., P.Graubmann, and Grabowski, J.}
+\newblock Tutorial on message sequence charts {(MSC'96}).
+\newblock In {\em FORTE\/} (1996).
+
+\end{thebibliography}
