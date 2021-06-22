@@ -47,8 +47,7 @@
 \begin{abstract}
 
 \textbf{Assunto:} Ensino da Linguagem de Programação \texttt{C}.
-
-Vamos mostr .
+Vamos abordar a biblioteca Ncurses e explicar o funcionamento do projeto de extensão
 % descrever em poucas palavras seu projeto aqui 
 
 \textbf{Local:} Escola Politécnica de Pernambuco - UPE/POLI
@@ -123,41 +122,48 @@ O método \emph{Ysort} é caracterizado por...
 A implementação será feita por meio de uma pequena playlist no youtube
 
 
-\begin{algorithm}
-\caption{Algoritmo Ysort}\label{alg:ysort}
-\begin{algorithmic}[1]
-\Function{ysort}{estado}\Comment{retorna uma ação}
-\State \textbf{Entradas}: estado é a configuração atual do jogo
-\State $v\gets \mathrm{maxvalor}{(estado)}$
-\State \textbf{returna} a ação $a$ em sucessores(estado) cujo valor é $v$ %\Comment{comentario}
+%\begin{algorithm}
+%\caption{Algoritmo Ysort}\label{alg:ysort}
+%\begin{algorithmic}[1]
+%\Function{ysort}{estado}\Comment{retorna uma ação}
+%\State \textbf{Entradas}: estado é a configuração atual do jogo
+%\State $v\gets \mathrm{maxvalor}{(estado)}$
+%\State \textbf{returna} a ação $a$ em sucessores(estado) cujo valor é $v$ %\Comment{comentario}
+
+
 % \While{$r\not=0$}\Comment{We have the answer if r is 0}
 % \State $a\gets b$
 % \State $b\gets r$
 % \State $r\gets a\bmod b$
 % \EndWhile\label{euclidendwhile}
-\EndFunction
-\Function{maxvalor}{estado}\Comment{retorna o valor estático}
-\If{fim(estado)}
-   \State \textbf{retorna} estatico(estado)
-\EndIf
-\State $v \gets -\infty$
-\For{todas ações $a$ nos sucessores(estado)}
-    \State $v \gets \max{(v, \mathrm{minvalor}(a))}$
-\EndFor
-\State \textbf{retorna} $v$
-\EndFunction
-\Function{minvalor}{estado}\Comment{retorna o valor estático}
-\If{fim(estado)}
-   \State \textbf{retorna} estatico(estado)
-\EndIf
-\State $v \gets \infty$
-\For{todas ações $a$ nos sucessores(estado)}
-    \State $v \gets \min{(v, \mathrm{maxvalor}(a))}$
-\EndFor
-\State \textbf{retorna} $v$
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
+
+
+%\EndFunction
+%\Function{maxvalor}{estado}\Comment{retorna o valor estático}
+%\If{fim(estado)}
+%   \State \textbf{retorna} estatico(estado)
+%\EndIf
+%\State $v \gets -\infty$
+%\For{todas ações $a$ nos sucessores(estado)}
+%    \State $v \gets \max{(v, \mathrm{minvalor}(a))}$
+%\EndFor
+%\State \textbf{retorna} $v$
+%\EndFunction
+%\Function{minvalor}{estado}\Comment{retorna o valor estático}
+%\If{fim(estado)}
+%   \State \textbf{retorna} estatico(estado)
+%\EndIf
+%\State $v \gets \infty$
+%\For{todas ações $a$ nos sucessores(estado)}
+%    \State $v \gets \min{(v, \mathrm{maxvalor}(a))}$
+%\EndFor
+%\State \textbf{retorna} $v$
+%\EndFunction
+%\end{algorithmic}
+%\end{algorithm}
+
+
+
 
 % seção Plano de Trabalho %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Plano de Trabalho}
@@ -182,15 +188,11 @@ Utilize uma tabela para melhor visualização.
  \caption{Tabela de custo de pontos para habilidades}
 \begin{tabular}{|l|r|}
   \hline \hline
-  pontos & moedas \\ \hline \hline
-   8 & 0 \\ \hline
-   9 & 1 \\ \hline
-  10 & 2 \\ \hline
-  11 & 3 \\ \hline
-  12 & 4 \\ \hline
-  13 & 5 \\ \hline
-  14 & 7 \\ \hline
-  15 & 9 \\ \hline \hline
+  Etapas & Datas \\ \hline \hline
+  Pesquisa do conteudo & 24/06 \\ \hline
+  implementação dos códigos & 03/07 \\ \hline
+  roteiro dos videos & 11/07 \\ \hline
+  editar os videos & 15/07 \\ \hline \hline
 \end{tabular} 
 \label{tab:resultados}
 \end{center}
