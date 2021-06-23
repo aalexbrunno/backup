@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 04:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,23 +210,23 @@ os de in-form^^Satica.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 188.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 188.
- [2]
-<imagem.png, id=17, 635.37375pt x 648.4225pt>
+<imagem.png, id=14, 635.37375pt x 648.4225pt>
 File: imagem.png Graphic file (type png)
 <use imagem.png>
-Package pdftex.def Info: imagem.png  used on input line 208.
+Package pdftex.def Info: imagem.png  used on input line 98.
 (pdftex.def)             Requested size: 34.5021pt x 35.20326pt.
- [3 <./imagem.png>]
-(./pext-matdiscreta-benante-sobrenome1-sobrenome2.bbl) [4]
+ [2 <./imagem.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 203.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 203.
+
+[3] (./pext-matdiscreta-benante-sobrenome1-sobrenome2.bbl) [4]
 (./pext-matdiscreta-benante-sobrenome1-sobrenome2.aux) ) 
 Here is how much of TeX's memory you used:
  2655 strings out of 494468
  37887 string characters out of 6175090
- 110011 words of memory out of 5000000
+ 108011 words of memory out of 5000000
  6287 multiletter control sequences out of 15000+600000
  9316 words of font info for 33 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
@@ -243,7 +243,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-sobrenome1-sobrenome2.pdf (4 pages, 
-171980 bytes).
+172040 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
