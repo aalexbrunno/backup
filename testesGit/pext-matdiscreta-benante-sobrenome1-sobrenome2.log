@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 03:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 03:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,35 +209,265 @@ os de in-form^^Satica.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.151  includegraphics[width=.80\linewidth]
+                                           {imagem.png}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.151  includegraphics[width=.80\linewidth]
+                                           {imagem.png}
+? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 151.
+(Font)              <7> on input line 161.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 151.
- [2]
-(./pext-matdiscreta-benante-sobrenome1-sobrenome2.bbl [3]) [4]
-(./pext-matdiscreta-benante-sobrenome1-sobrenome2.aux) ) 
+(Font)              <5> on input line 161.
+(./pext-matdiscreta-benante-sobrenome1-sobrenome2.bbl
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 4--9
+[]
+ []
+
+
+Overfull \hbox (61.92474pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/sc/10 Benante,
+ []
+
+
+Overfull \hbox (40.41643pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/sc/10 R. C.
+ []
+
+
+Overfull \hbox (51.53033pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 Gera^^Xc~ao
+ []
+
+
+Overfull \hbox (25.26663pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (34.33876pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 Tra-
+ []
+
+
+Overfull \hbox (48.1387pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 jet^^Sorias
+ []
+
+
+Overfull \hbox (25.26663pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (30.0055pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 Es-
+ []
+
+
+Overfull \hbox (27.5666pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 ta-
+ []
+
+
+Overfull \hbox (29.86662pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 dos
+ []
+
+
+Overfull \hbox (29.48326pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 por
+ []
+
+
+Overfull \hbox (33.21103pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 Ma-
+ []
+
+
+Overfull \hbox (29.3555pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 pas
+ []
+
+
+Overfull \hbox (40.11096pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 Auto-
+ []
+
+
+Overfull \hbox (68.32745pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 organiz^^Saveis
+ []
+
+
+Overfull \hbox (32.93324pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 com
+ []
+
+
+Overfull \hbox (30.63326pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 To-
+ []
+
+
+Overfull \hbox (28.84438pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 po-
+ []
+
+
+Overfull \hbox (26.79996pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 lo-
+ []
+
+
+Overfull \hbox (28.33328pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 gia
+ []
+
+
+Overfull \hbox (60.12755pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/it/10 Din^amica\OT1/cmr/m/n/10 .
+ []
+
+
+Overfull \hbox (37.0834pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 Dou-
+ []
+
+
+Overfull \hbox (27.77783pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 to-
+ []
+
+
+Overfull \hbox (35.02786pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 rado
+ []
+
+
+Overfull \hbox (28.33339pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 em
+ []
+
+
+Overfull \hbox (48.94452pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 ci^encias
+ []
+
+
+Overfull \hbox (26.11118pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 da
+ []
+
+
+Overfull \hbox (36.66673pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (52.77791pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 puta^^Xc~ao,
+ []
+
+
+Overfull \hbox (34.72229pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 Uni-
+ []
+
+
+Overfull \hbox (32.25005pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 ver-
+ []
+
+
+Overfull \hbox (25.61115pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 si-
+ []
+
+
+Overfull \hbox (36.11119pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 dade
+ []
+
+
+Overfull \hbox (29.02782pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 Fe-
+ []
+
+
+Overfull \hbox (28.88893pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (27.25006pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 ral
+ []
+
+
+Overfull \hbox (25.5556pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (33.77782pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 Per-
+ []
+
+
+Overfull \hbox (37.77786pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 nam-
+ []
+
+
+Overfull \hbox (38.88898pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 buco,
+ []
+
+
+Overfull \hbox (30.69447pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 Re-
+ []
+
+
+Overfull \hbox (33.05562pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 cife,
+ []
+
+
+Overfull \hbox (38.33344pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/10 2008. 
+ []
+
+[3]) [4] (./pext-matdiscreta-benante-sobrenome1-sobrenome2.aux) ) 
 Here is how much of TeX's memory you used:
  2647 strings out of 494468
  37788 string characters out of 6175090
- 110003 words of memory out of 5000000
+ 109003 words of memory out of 5000000
  6281 multiletter control sequences out of 15000+600000
  9316 words of font info for 33 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  41i,8n,25p,367b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+</usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-sobrenome1-sobrenome2.pdf (4 pages, 
-141299 bytes).
+141531 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
