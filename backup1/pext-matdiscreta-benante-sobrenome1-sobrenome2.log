@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,7 +214,7 @@ os de in-form^^Satica.
 File: imagem.png Graphic file (type png)
 <use imagem.png>
 Package pdftex.def Info: imagem.png  used on input line 98.
-(pdftex.def)             Requested size: 34.5021pt x 35.20326pt.
+(pdftex.def)             Requested size: 172.5pt x 176.04604pt.
  [2 <./imagem.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 203.
@@ -243,7 +243,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-sobrenome1-sobrenome2.pdf (4 pages, 
-172213 bytes).
+172248 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
