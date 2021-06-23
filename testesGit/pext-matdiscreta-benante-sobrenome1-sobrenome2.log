@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 03:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 03:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,18 +209,18 @@ os de in-form^^Satica.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 187.
+(Font)              <7> on input line 150.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 187.
- [3]
-(./pext-matdiscreta-benante-sobrenome1-sobrenome2.bbl) [4]
+(Font)              <5> on input line 150.
+ [2]
+(./pext-matdiscreta-benante-sobrenome1-sobrenome2.bbl [3]) [4]
 (./pext-matdiscreta-benante-sobrenome1-sobrenome2.aux) ) 
 Here is how much of TeX's memory you used:
  2647 strings out of 494468
  37788 string characters out of 6175090
- 109003 words of memory out of 5000000
+ 110003 words of memory out of 5000000
  6281 multiletter control sequences out of 15000+600000
  9316 words of font info for 33 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
@@ -237,7 +237,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-sobrenome1-sobrenome2.pdf (4 pages, 
-141420 bytes).
+141243 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
