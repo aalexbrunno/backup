@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  23 JUN 2021 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -226,7 +226,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  2655 strings out of 494468
  37887 string characters out of 6175090
- 108011 words of memory out of 5000000
+ 109011 words of memory out of 5000000
  6287 multiletter control sequences out of 15000+600000
  9316 words of font info for 33 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
@@ -243,7 +243,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-sobrenome1-sobrenome2.pdf (4 pages, 
-172040 bytes).
+172213 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
