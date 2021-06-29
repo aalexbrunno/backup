@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  29 JUN 2021 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  29 JUN 2021 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,8 +111,8 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-No file pext-matdiscreta-benante-Seabra-Morais-Almeida-Delmondes-Moreira-Sarruf
--Araujo.aux.
+(./pext-matdiscreta-benante-Seabra-Morais-Almeida-Delmondes-Moreira-Sarruf-Arau
+jo.aux)
 \openout1 = `pext-matdiscreta-benante-Seabra-Morais-Almeida-Delmondes-Moreira-S
 arruf-Araujo.aux'.
 
@@ -128,7 +128,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen106
@@ -274,7 +274,7 @@ l.227 ...o do projeto. & & & & & & & & & & & & X &
                                                    \hline \hline
 ? 
 
-Overfull \hbox (137.61203pt too wide) in paragraph at lines 215--230
+Overfull \hbox (108.05644pt too wide) in paragraph at lines 215--230
  [] 
  []
 
@@ -290,14 +290,11 @@ jo.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2625 strings out of 494468
- 37502 string characters out of 6175090
- 116991 words of memory out of 5000000
+ 2627 strings out of 494468
+ 37668 string characters out of 6175090
+ 117007 words of memory out of 5000000
  6266 multiletter control sequences out of 15000+600000
  8669 words of font info for 31 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
@@ -311,7 +308,7 @@ fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-Seabra-Morais-Almeida-Delmondes-More
-ira-Sarruf-Araujo.pdf (4 pages, 145054 bytes).
+ira-Sarruf-Araujo.pdf (4 pages, 145139 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
