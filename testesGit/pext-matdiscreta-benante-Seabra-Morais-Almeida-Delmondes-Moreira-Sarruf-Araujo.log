@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  30 JUN 2021 02:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  30 JUN 2021 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,72 +209,72 @@ Package pdftex.def Info: imagem.png  used on input line 97.
 (pdftex.def)             Requested size: 172.5pt x 176.04604pt.
  [2 <./imagem.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 215.
+(Font)              <7> on input line 216.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 215.
+(Font)              <5> on input line 216.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.218 ... & 04 & 05 & 06 & 07 & 08 &09 & 10&11&12&
+l.219 ... & 04 & 05 & 06 & 07 & 08 &09 & 10&11&12&
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.219 ...nização & X & X & X & & & & & & & & & &
+l.220 ...nização & X & X & X & & & & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.220 ...o do vídeo 1 & & & & X & & & & & & & & &
+l.221 ...o do vídeo 1 & & & & X & & & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.221 ...o do vídeo 2 & & & & & X & & & & & & & &
+l.222 ...o do vídeo 2 & & & & & X & & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.222 ...o do vídeo 3 & & & & & & X & & & & & & &
+l.223 ...o do vídeo 3 & & & & & & X & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.223 ...o do vídeo 4 & & & & & & & X & & & & & &
+l.224 ...o do vídeo 4 & & & & & & & X & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.224 ...o do vídeo 5 & & & & & & & & X & & & & &
+l.225 ...o do vídeo 5 & & & & & & & & X & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.225 ...o do vídeo 6 & & & & & & & & & X & & & &
+l.226 ...o do vídeo 6 & & & & & & & & & X & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.226 ...ório final & & & & & & & & & & X & X & &
+l.227 ...ório final & & & & & & & & & & X & X & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.227 ...o do projeto. & & & & & & & & & & & & X &
+l.228 ...o do projeto. & & & & & & & & & & & & X &
                                                    \hline \hline
 ? 
 
-Overfull \hbox (108.05644pt too wide) in paragraph at lines 215--230
+Overfull \hbox (108.05644pt too wide) in paragraph at lines 216--231
  [] 
  []
 
