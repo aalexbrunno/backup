@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  30 JUN 2021 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.12.30)  30 JUN 2021 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -209,72 +209,72 @@ Package pdftex.def Info: imagem.png  used on input line 97.
 (pdftex.def)             Requested size: 137.9979pt x 140.83287pt.
  [2 <./imagem.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 215.
+(Font)              <7> on input line 214.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 215.
+(Font)              <5> on input line 214.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.218 ... & 04 & 05 & 06 & 07 & 08 &09 & 10&11&12&
+l.217 ... & 04 & 05 & 06 & 07 & 08 &09 & 10&11&12&
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.219 ...nização & X & X & X & & & & & & & & & &
+l.218 ...nização & X & X & X & & & & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.220 ...o do vídeo 1 & & & & X & & & & & & & & &
+l.219 ...o do vídeo 1 & & & & X & & & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.221 ...o do vídeo 2 & & & & & X & & & & & & & &
+l.220 ...o do vídeo 2 & & & & & X & & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.222 ...o do vídeo 3 & & & & & & X & & & & & & &
+l.221 ...o do vídeo 3 & & & & & & X & & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.223 ...o do vídeo 4 & & & & & & & X & & & & & &
+l.222 ...o do vídeo 4 & & & & & & & X & & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.224 ...o do vídeo 5 & & & & & & & & X & & & & &
+l.223 ...o do vídeo 5 & & & & & & & & X & & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.225 ...o do vídeo 6 & & & & & & & & & X & & & &
+l.224 ...o do vídeo 6 & & & & & & & & & X & & & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.226 ...ório final & & & & & & & & & & X & X & &
+l.225 ...ório final & & & & & & & & & & X & X & &
                                                    \hline
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.227 ...o do projeto. & & & & & & & & & & & & X &
+l.226 ...o do projeto. & & & & & & & & & & & & X &
                                                    \hline \hline
 ? 
 
-Overfull \hbox (108.05644pt too wide) in paragraph at lines 215--230
+Overfull \hbox (108.05644pt too wide) in paragraph at lines 214--229
  [] 
  []
 
@@ -290,7 +290,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  2634 strings out of 494468
  37893 string characters out of 6175090
- 119011 words of memory out of 5000000
+ 117011 words of memory out of 5000000
  6269 multiletter control sequences out of 15000+600000
  9316 words of font info for 33 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
@@ -306,7 +306,7 @@ public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt9.pfb>
 Output written on pext-matdiscreta-benante-Seabra-Morais-Almeida-Delmondes-More
-ira-Sarruf-Araujo.pdf (4 pages, 165482 bytes).
+ira-Sarruf-Araujo.pdf (4 pages, 164940 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
