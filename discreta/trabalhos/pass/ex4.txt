@@ -1,0 +1,49 @@
+/* *********************************************************************** *
+*    PROGRAM_NAME, VERSION                                                 *
+*    BRIEF_DESCRIPTION                                                     *
+*                                                                          *
+*  Copyright (C) 2021 by Alex Bruno Seabra                                 *
+*                                                                          *
+*    This program is free software; you can redistribute it and/or modify  *
+*    it under the terms of the GNU General Public License as published by  *
+*    the Free Software Foundation; either version 2 of the License, or     *
+*    (at your option) any later version.                                   *
+*                                                                          *
+*    This program is distributed in the hope that it will be useful,       *
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*    GNU General Public License for more details.                          *
+*                                                                          *
+*    You should have received a copy of the GNU General Public License     *
+*    along with this program; if not, write to the                         *
+*    Free Software Foundation, Inc.,                                       *
+*    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+*                                                                          *
+*  To contact the author, please write to:                                 *
+*  Name: Alex Bruno Seabra <aalexbrunno@gmail.com>                         *
+*  Webpage: http://beco.poli.br/~username                                  *
+*  Phone: (81) 98735-8802                                                  *
+* ************************************************************************ *
+* 
+*/
+
+Exercicio4 
+
+Método 01
+
+comando utilizado no primeiro método: strings quebrasenha.x
+
+Descrição do método:
+
+O primeiro métdo utilizado para descobrir a senha do arquivo quebrasenha.x foi usando o comando $strings quebrasenha.x esse 
+comando listou todas as strings desse arquivo binário onde tive que ler cada uma delas até encontrar uma possível senha 
+chamada robots.
+
+Método 02
+
+Comando utilizado no segundo método: while read LINE; do echo "$LINE" | ./quebrasenha.x $LINE | grep "\Acesso liberado$" && echo "Password: $LINE"; done < passworst10k.txt
+
+O segundo método utilizado teve o objetivo de encontrar a senha dentre as 10 mil strings que estão no arquivo passworst10k.txt
+o comando utilizado consiste em um laço de repetição em bash que vai ler linha por linha do arquivo passworst10k.txt pegando as saidas que no caso são  as strings com echo e passando como argumento para o arquivo binário com o caractere '|'. Além disso, se o arquivo binário tiver como uma das saidas 'Acesso liberado' a senha foi encontrada o programa vai imprimir na tela a linha que que contém a senha correta.
+
+

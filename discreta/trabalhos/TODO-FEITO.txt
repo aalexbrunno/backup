@@ -1,0 +1,324 @@
+Servidor Hydra
+--------------
+
+
+
+A) Alunos da comunidade externa do ProgramAuto
+----------------------------------------------
+
+Sigam as orientações dos instrutores.
+Algumas das tarefas abaixo são opcionais para vocês.
+
+Fazer tarefas: 
+* 01, 02, 03, 04, 05, 06,
+* 07: importante! Aprenda Linux. Pratique várias vezes se necessário.
+* 08: importante! Aprenda vi. Pratique quantas vezes quiser.
+* 09, 10, 11
+* 14: git da chamada teste 1919s1
+* 15, 16, 17, 18, 19
+* 20: ao acabar, finalize renomeando o arquivo TODO.txt
+
+Opcionais: 12, 13, 21, 22.
+
+
+
+B) Tarefas para alunos matriculados na POLI
+-------------------------------------------
+
+Tarefa 01:
+----------
+
+Cadastre-se no site:
+
+http://hydra.beco.cc/
+
+
+----------
+Tarefa 02:
+
+Abra uma conta no Dropbox se ainda não tiver
+https://db.tt/F66Mx1Ke
+
+Visite a página do Hydrabox em:
+
+http://beco.cc/hydrabox
+
+
+----------
+Tarefa 03:
+
+Leia o arquivo de boas vindas:
+
+01-msg-novos-bem-vindo.txt
+
+
+----------
+Tarefa 04:
+
+Leia o arquivo sobre segurança:
+
+02-msg-novos-seguranca.txt
+
+
+----------
+Tarefa 05:
+
+Leia o arquivo sobre senhas:
+
+06-msg-senha.txt
+
+
+----------
+Tarefa 06:
+
+Leia o resumo:
+
+08-msg-resumo.txt
+
+Em especial, as definições dos vários tipos de extensões de programas binários (executáveis)
+dependendo da sua fonte (C, PROLOG, BrainForce, Portugol, e combinações de bibliotecas compartilhadas)
+
+Estas extensões estão implementadas no makefile
+
+
+----------
+Tarefa 07:
+
+Pratique em um ambiente seguro: antes de sair digitando comandos no servidor hydra e correr o risco de fazer algo que não está entendendo direito, pratique neste site. Crie uma conta no site:
+
+http://webminal.org/
+
+Faça seu login no site e então clique em "terminal". 
+
+* No lado esquerdo, aparecerá uma simulação de terminal linux no próprio navegador, como se fosse o servidor hydra. 
+* No lado direito, um menu drop-down com lições (Available Lessons: 'select'). Selecione e faça estas lições.
+Recomendação: faça da "Lesson1" até a "Lesson10"
+
+----------
+Tarefa 08:
+
+Aprenda sobre o editor VI (lê-se vi-ai).
+
+Digite o comando:
+$ vimtutor br
+
+Siga todas as instruções para cada lição do vimtutor. Pode alterar o arquivo sem medo que ele é feito para isso.
+
+VimTutor pt_BR
+--------------
+* Lição 1: mover e outras coisas
+* Lição 2: apagar e outras
+* Lição 3: substituir
+* Lição 4: busca
+* Lição 5: comandos
+* Lição 6: copia/cola
+* Lição 7: ajudas e janelas
+* Lição 8: dicas do vim no servidor Hydra
+
+Aprenda mais sobre o editor VI, lendo o resumo no hydrabox:
+
+05-msg-vi.txt
+
+Ainda no hydrabox, abra e estude o PDF:
+
+vi.pdf
+
+
+----------
+Tarefa 09:
+
+Crie (ou confira se já estão corretamente criadas) as pastas das disciplinas que estiver matriculado (apenas).
+
+Letras minúsculas e sem acentos. (exemplos: ia, discreta, informatica, logica)
+
+Dentro de cada uma delas, crie mais duas pastas: rascunhos e trabalhos.
+(minúsculas, sem acentos, e no plural)
+
+Pesquise sobre o comando mkdir.
+
+Leia sobre os comandos na pasta:
+
+http://beco.cc/hydrabox
+
+03-msg-linux.txt
+
+
+----------
+Tarefa 10:
+
+Faça cópias do arquivo makefile (ou confira se já estão devidamente copiados) para dentro das pastas: rascunhos e trabalhos.
+
+
+----------
+Tarefa 11:
+
+Leia seu finger. Comando:
+
+$ finger seuusuariohydra
+
+As notas (algumas) podem ser editadas com o comando chfn (abreviação de "CHange Finger Notes").
+Se estiver com erro nas informações do seu finger, avise os monitores imediatamente, por email ou bate-papo.
+Canal oficial: https://t.me/contauto
+
+Descreva a informação incorreta e como seria a correta. 
+Faça isso, pois sua avaliação pode ser prejudicada se os scripts não reconhecerem você por erros nos dados que você cadastrou!
+
+
+
+ATENÇÃO: Não altere as linhas do arquivo ~/.plan: 
+* Courses:
+* Github:
+* Gitlab:
+
+Estas linhas são usadas por scripts que separam os alunos nas turmas corretamente, de forma automática.
+
+* Edite o arquivo: ~/.project
+
+Coloque lá os seus projetos e hobbies.
+
+= Curto prazo =
+    * Nonono
+    * Nanana
+    * Ninini
+
+= Medio prazo =
+    * Nonono
+    * Nanana
+    * Ninini
+
+= Longo prazo =
+    * Nonono
+    * Nanana
+    * Ninini
+
+Altere as "ancoras" Nonono, Nanana e Ninini para refletir seus objetivos em cada período de tempo.
+
+
+As permissões para o arquivo .plan e .project foram liberadas. Todos os colegas, ao dar um "finger usuario" poderao ver o que voce compartilhou nestes arquivos. Coloque la no .project alguma coisa que mostre um pouco de vocẽ.
+
+
+----------
+Tarefa 12:
+
+Configure o site http://gitlab.com/ e o site http://github.com/
+
+ATENÇÃO: no seu perfil no site gitlab e github, COLOQUE SEU NOME COMPLETO
+
+Veja seção 2a do arquivo 11-msg-git.txt e 
+leia atentamente como criar sua chave SSH no arquivo 13-msg-ssh.txt
+
+Nome, Email, chave SSH
+
+Confira o arquivo: ~/.config/git/config
+
+
+
+----------
+Tarefa 13:
+
+Confira o github.
+
+
+* Github
+Para conferir o github, faça clone, commit e push, do repositório teste (dentro da pasta rascunhos de alguma disciplina):
+
+$ cd ~/disciplina/rascunhos # para mudar de pasta
+$ git clone git@github.com:BecoSystems/teste.git # para clonar o repositório
+
+Se conseguiu clonar e pediu a senha do arquivo ~/.ssh/id_rsa, então sua chave SSH foi configurada com sucesso.
+Para evitar que peça sempre a senha a cada comando, use o comando ssh-add para digitar a senha apenas uma vez por seção.
+
+O teste abaixo só funcionará caso seu usuário esteja cadastrado na Organização BecoSystems pelo seu professor. Continue:
+
+$ cd teste # para entrar no repositório clonado
+$ git co develop # para mudar para o ramo develop
+$ vi jogo.md # para editar o arquivo a ser alterado
+$ git cm "explica modificacao feita" # para confirmar a modificação adicionando-a ao histórico
+$ git push # para enviar as modificações locais para o site remoto github
+$ git co master # para mudar para o ramo master
+$ git merge develop # para trazer as modificações feitas no develop para o master
+$ git push # para enviar as modificações feitas no master local para o remoto
+$ git st # para ver o status
+$ git lo # para ver o log
+
+----------
+Tarefa 14:
+
+Confira o git do Hydra e a chamada teste:
+
+* Git do Hydra
+Para conferir o comando git rodando no hydra, aproveite a chamada do ano de 1919 para testes. Esta ficara fora de qualquer disciplina, na sua pasta HOME:
+
+$ cd # para mudar para sua pasta HOME
+$ git clone git@hydra:repos/1919s1/chamada1919s1.git # para clonar a chamada de testes
+$ cd chamada1919s1 # para entrar no repositório
+$ cd discreta # para entrar em uma disciplina que será feita a chamada
+$ vi 1919s1-03-01-discreta.md # para adicionar seu nome. Se o arquivo não existir, o primeiro aluno a fazer chamada o cria
+$ git cm "discreta: Joao da Silva" # para confirmar a modificação. A mensagem de commit é "disciplina: seu nome"
+$ git push # para enviar as modificações locais da sua pasta para o servidor remoto hydra
+$ git st # para ver o status
+# git lo # para ver o log. Confira se seu nome está com o email correto.
+
+
+----------
+Tarefa 15:
+
+Edite e coloque suas informações (ou confira se já estão corretamente inseridas) no arquivo de configurações do vi:
+
+Arquivo: ~/.vimrc
+
+Linhas a procurar e conferir:
+
+* g:author
+* g:email
+* g:phone
+* g:Doxygen... linha de Copyright
+* g:Doxygen... Linha de contato do autor, com nome e email
+* g:Doxygen... Linha de telefone
+
+
+----------
+Tarefa 16:
+
+Leia e siga o arquivo 19-msg-links.txt
+
+
+----------
+Tarefa 17:
+
+Leia e estude o arquivo sobre conexão SSH na pasta hydrabox:
+
+* ssh-putty.pdf
+
+
+----------
+Tarefa 18:
+
+Confira os exercícios e as datas com o comando controllami:
+
+$ controllami
+
+----------
+Tarefa 19:
+
+Espie quem está online simultaneamente com o comando quem, e bata um papo com o comando write.
+(Quem precisa de Whatsapp ou Telegram se você tem Linux?)
+
+----------
+Tarefa 20:
+
+Renomeie este arquivo (TODO.txt) para TODO-FEITO.txt ao final, para indicar que completou a tarefa, e mova-o para a pasta trabalhos.
+(Este arquivo é parte dos exercícios e é avaliado. Portanto assim que acabar, renomeie este arquivo como descrito, respeitando as letras maiúsculas e minúsculas, para indicar que cumpriu a tarefa)
+
+
+----------
+
+Bom estudo.
+Prof. Dr. Ruben Carlo Benante
+rcb@upe.br
+
+
+PS. Tarefa 21: Não esqueça de estudar continuamente com o qualcard. Faça seus próprios banco de dados para aprender pelo método de repetição diária.
+
+PPS. Tarefa 22: Se ja cumpriu todas tarefas, jogue um Akernaak, que ninguem eh de ferro! :)
+
