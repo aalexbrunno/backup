@@ -1,0 +1,58 @@
+algoritmo raiz_2_grau;
+
+variáveis
+    a : real; /* coeficientes */
+    b : real;
+    c : real;
+    delta : real; /* delta */
+    raiz1 : real; /* raiz1 */
+    raiz2 : real; /* raiz2 */
+    aux : real;   /* possivel raiz quadrada */
+fim-variáveis
+
+
+início
+
+    /* interagindo com o usuario e captando valores  */
+    imprima("Sabendo que uma equacao do Segundo Grau tem forma: ax2+bx+c. \nDigite o valor do coeficiente a: ");
+    a := leia();
+
+    imprima("Digite o valor do coeficiente b: ");
+    b := leia();
+
+    imprima("Digite i valor do coeficiente c: ");
+    c := leia();
+
+    /* operacoes no delta */
+    delta := (b*b) - (4*a*c);
+ 
+ /*   aux := 1; variável não usada  */
+    
+    delta := raiz(delta); /* a gente calcula raiz de delta */
+
+    /* calculando raizes */
+    raiz1:= (-b + delta)/ (2*a);
+    raiz2:= (-b - delta)/ (2*a); /* aqui uma tem que ser - delta */
+
+    /* saida(resultado) */
+    imprima("As raizes sao: ", raiz1, "e", raiz2);
+fim
+
+
+função raiz(aux: real): real
+    i : inteiro;  
+     
+início
+
+    aux := 1; /*valor de 1 para o palpite */
+    i := 0;
+
+    enquanto i<>10 faça
+       i := i+1;
+       aux := aux - ((aux*aux - delta) / (2*aux));
+
+fim-enquanto
+
+retorne aux;
+
+fim

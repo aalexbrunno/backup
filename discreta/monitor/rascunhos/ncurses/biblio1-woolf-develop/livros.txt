@@ -1,0 +1,30 @@
+1;Stephen Hawking;A Brief History of Time: From the Big-Bang to Black Holes;Bantam;London;1988;1;9780553380163;2
+2;John Craig Wheeler;Cosmic Catastrophes: Exploding Stars, Black Holes, and Mapping the Universe;Cambridge;New York;2007;;;1
+3;Chris Impey;Einsteinâ€™s Monsters: the Life and Times of Black Holes;Deutch Bib;Berlin;2019;;;1
+4; alex; programando facil ; 1987; cabulosa; recife
+5; bruno; programacao em c; 2021; saraiva; recife
+6; ; lucas; 2020; qualquer; EUA
+7; alex; como programar; 2021; saraiva; recife
+8; ; alex; 2020; seila; desconhecido
+9; lucas; monitorias; 2017; saraiva; camaragibe
+10; ; alex monitorias; 2018; saraiva; jaboatao
+11; ; vitor; seila; qualquer; tantofaz
+12; alex; seila; sodeussabe; desconhecida; naoConsta
+13; ; n; seila; sdf; addk
+14; alef; asd; 2020; saiela; 2030
+15; aseila; seila; seila; seila; 30
+16; ; seila; seila; seila; 20
+17; alex; degugando; 2021; lancaTudo; recife
+18; ale; milagr; 202; agorafoi; recif
+19; brun; facu; 202; desconhecid; recif
+20; ; seil; 201; seil; recif
+21; ; ; ; ; 
+22; ; ; ; ; 
+23; ; ; ; ; 
+1; alex bruno; ncurses; 2023; comunista; china
+2; bruno; ncurses2; 2024; folgada; recife
+1; alex; debugando; 2021; jesusnacausa; recife
+1; ale; ; ; Í‹\þ; 
+1; ale; ; ; ôF‡pþ; 
+282;alex;bruno seabra;2023;2saraiva;recife;3;1234
+282;alex;bruno seabra;2023;2saraiva;recife;3;1234

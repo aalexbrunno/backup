@@ -1,0 +1,19 @@
+algoritmo metodo_mult;
+
+variáveis
+
+a: real;
+b: real;
+x: real;
+fim-variáveis
+
+início
+
+imprima ("Digite o valor de a");
+a:= leia();
+imprima ("Digite o valor de b");
+b:= leia();
+x:= a * b;
+
+imprima("o valor da divisao eh:",x);
+fim

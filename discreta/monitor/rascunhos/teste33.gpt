@@ -1,0 +1,39 @@
+algoritmo metodo_raiz;
+
+variáveis
+    r: real;
+    x: real;
+
+   fim-variáveis
+
+início 
+    imprima ("digite um numero que voce quer tirar a raiz quadrada:");
+    r:= leia();
+    imprima ("digite um palpite aproximado da sua raiz para que o programa lhe der o resultado esperado");
+    x:= leia();
+
+    imprima("o valor da raiz eh:", raiz(x));
+fim
+
+/*
+a função que criei tira a raiz quadrada do numero que o usuario digitou na variavel 'r' para isso
+acontecer usei o metodo de newton para achar a raiz esse metodo precisa de um numero aproximado 
+para servir de base para o programa ir rodando e entregar o resultado aproximado. As entradas são 
+as variaveis 'r' e 'x' e a saida é a variavel 'x' que vai ser chamada no imprima.
+
+*/
+
+função raiz(x: real): real
+    i: inteiro;
+
+início 
+   
+enquanto i<>10 faça
+   i := i+1;
+   x := x - ((x*x - r) / (2*x));
+
+fim-enquanto
+
+retorne x;
+
+fim

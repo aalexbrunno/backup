@@ -1,0 +1,27 @@
+algoritmo metodo_raiz;
+
+variáveis
+    a: real;
+    b: real;
+    c: real;
+   fim-variáveis
+
+início 
+    imprima ("digite um valor para ser multiplicado");
+    a:= leia();
+    imprima ("digite outro valor para multiplicar o primeiro");
+    b:= leia();
+
+    imprima("o valor da raiz eh:", mult(c));
+fim
+
+
+função mult(x: real): real
+
+início 
+   
+   x := a * b;
+
+retorne x;
+
+fim

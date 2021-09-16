@@ -1,0 +1,72 @@
+algoritmo  equacao_2grau;
+
+
+variáveis
+
+    a: real;
+    b: real;
+    c: real;
+    raiz1: real;
+    raiz2: real;
+    x: real;
+    delta: real;
+
+
+fim-variáveis
+
+início
+
+    imprima ("Para calcular as raizes de uma equação de 2.0 grau(ax2+bx+c=0)");
+
+    imprima ("Escreva o valor de a:\n");
+    a:= leia();
+
+    imprima ("Escreva o valor de b:\n");
+    b:= leia();
+
+    imprima ("Escreva o valor de c:\n");
+    c:= leia();
+
+    imprima ("Para a = ", a, ",b = ", b, ",c = ", c);
+
+    delta:= (b * b) - (4 * a * c);
+
+
+    imprima ("Delta: ", delta);
+
+    
+    se delta > 0 então
+        delta:= raiz(delta);
+        raiz1 = (-b + delta) / (2 * a);
+        raiz2 = (-b - delta) / (2 * a);
+
+        imprima ("raiz1 =", raiz1);
+
+        imprima ("raiz2 =", raiz2);
+     senão 
+      imprima ("Raiz: sem raiz real");
+     fim-se
+
+
+
+fim
+
+
+função raiz(x: real): real
+i: inteiro;
+
+início
+
+    x:= 1;
+    i:=0;
+
+    enquanto i<>10 faça
+
+    i:= i+1;
+    x:= x - ((x*x - delta) / (2*x));
+
+    fim-enquanto
+
+    retorne x;
+
+fim

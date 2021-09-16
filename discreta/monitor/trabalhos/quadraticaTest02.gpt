@@ -1,0 +1,84 @@
+algoritmo funcao_quadratica;
+
+variáveis
+
+x:real;
+
+fim-variáveis
+
+início
+
+
+    raiz(x);
+
+
+fim
+
+função raiz(x:real):real
+    i: inteiro;
+    r: real;
+    a: real;
+    b: real;
+    c: real;
+    x1: real;
+    x2: real;
+
+início
+    imprima("vamos calcular as raizes da funcao quadratica ax^2 + bx + c\n\n");
+
+    imprima("digite o valor de a\n");
+    a:= leia();
+    imprima("digite o valor de b\n");
+    b:= leia();
+    imprima("por fim digite o valor de c\n");
+    c:= leia();
+
+    x:=1;
+
+    r := b*b -4*a*c;
+
+/*    se r >= 0 & a <> 0 então
+        enquanto i<>10 faça
+            i:= i + 1;
+
+            x:= x - ((x*x - r) / (2*x));
+        fim-enquanto
+
+        x1 := (-b + x) / (2*a);
+        x2 := (-b - x) / (2*a);
+
+        imprima("o valor de x1 eh:", x1);
+        imprima("o valor de x2 eh:", x2);
+    senão
+        imprima("nao calculo discriminante negativo ou A igual a zero \n");
+    fim-se
+*/
+
+     se r < 0 então
+        imprima("nao calculo discriminante negativo \n");
+     fim-se  
+     se a = 0 então
+        imprima("nao calculo A igual a zero \n");
+   /*  fim-se */
+     
+     senão
+        enquanto i<>10 faça
+        i:= i + 1;
+
+        x:= x - ((x*x - r) / (2*x));
+        fim-enquanto
+
+        x1 := (-b + x) / (2*a);
+        x2 := (-b - x) / (2*a);
+
+        imprima("o valor de x1 eh:", x1);
+        imprima("o valor de x2 eh:", x2);
+     fim-se
+     
+     
+     retorne x;
+
+fim
+
+
+

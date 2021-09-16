@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <locale.h>
+
+float area(float b, float a);
+
+
+int main(void)
+{
+    setlocale(LC_ALL, "");
+
+    printf("olá \n");
+
+    float x = 0;
+    float a = 0, b = 0;
+    printf("digite um valor para base\n");
+    scanf("%f", &b);
+
+    printf("digite um valor para altura\n");
+    scanf("%f", &a);
+
+
+    x = area(b, a);
+
+
+
+
+    printf("\n");
+
+    printf("sua área e %.2f\n", x);
+
+
+
+
+    return EXIT_SUCCESS;
+}
+
+
+float area(float b, float a)
+{
+    float x = 0;
+
+    x = b * a;
+
+    return x;
+}
+
+
+

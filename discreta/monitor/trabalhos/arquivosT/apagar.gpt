@@ -1,0 +1,32 @@
+algoritmo metodo_raiz;
+
+variáveis
+    r: real;
+    x: real;
+
+   fim-variáveis
+
+início 
+    imprima ("digite um numero que voce quer tirar a raiz quadrada:");
+    r:= leia();
+
+
+    imprima("o valor da raiz eh:", raiz(x));
+fim
+
+
+função raiz(x: real): real
+    i: inteiro;
+
+início 
+
+x := 1;
+enquanto i<>50 faça
+   i := i+1;
+   x := x - ((x*x - r) / (2*x));
+
+fim-enquanto
+
+retorne x;
+
+fim

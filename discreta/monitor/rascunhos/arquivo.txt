@@ -1,0 +1,8 @@
+make ex1.gpt.x compilar g-portugol
+
+
+make pe2.c  criar o arquivo do project euler
+
+
+make pe2.x SRC="projecteuler.c myeulerlib.c" compilar no project euler
+

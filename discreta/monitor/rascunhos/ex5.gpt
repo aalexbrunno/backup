@@ -1,0 +1,24 @@
+algoritmo fah2cel;
+ 
+  variáveis
+ 
+      Tc : real;
+      Tf : real;
+ 
+  fim-variáveis
+
+/* a função principal recebe duas variáveis uma que irá conter o valor da temperatura em graus fahenheit e outra que vai sair com 
+ o valor correspondente na temperatura medida em graus celsius. Esse programa é um simples conversor de temperatura que
+ pode ser util em uma viagem quando o país de destino usa o sistema de medida em fahenheit.
+
+*/
+
+  início
+ 
+  imprima ("digite o valor da temperatura em fahenheit");
+      Tf := leia();
+      Tc := (Tf - 32) * 5 / 9;
+ 
+  imprima(" o resultado em celsius eh :", Tc);
+  fim
+

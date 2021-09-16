@@ -1,0 +1,28 @@
+algoritmo metodo_area;
+
+variáveis
+    b: real;
+    x: real;
+    a: real;
+   
+   fim-variáveis
+
+início 
+    imprima ("digite um valor para base:");
+    b:= leia();
+    imprima ("digite um valor para altura");
+    a:= leia();
+
+    imprima("o valor da base:", area(x));
+fim
+
+
+função area(x: real): real
+
+início 
+   
+x := b * a;
+
+retorne x;
+
+fim

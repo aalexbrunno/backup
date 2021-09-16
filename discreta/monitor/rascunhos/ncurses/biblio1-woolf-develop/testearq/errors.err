@@ -1,0 +1,170 @@
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `driver':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:162: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:163: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:167: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:169: undefined reference to `field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:176: undefined reference to `pos_form_cursor'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:181: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:182: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:190: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:192: undefined reference to `field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:203: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:204: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:205: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:206: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:207: undefined reference to `field_buffer'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:208: more undefined references to `field_buffer' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `driver':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:248: undefined reference to `pos_form_cursor'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:257: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:259: undefined reference to `field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:271: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:272: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:273: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:274: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:299: undefined reference to `pos_form_cursor'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:306: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:307: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:320: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:329: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:330: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:335: undefined reference to `field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:344: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:345: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:349: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:350: undefined reference to `form_driver'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:354: undefined reference to `form_driver'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:358: more undefined references to `form_driver' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printFormSearch':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:394: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:397: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:399: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:401: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:403: undefined reference to `new_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:405: undefined reference to `set_form_win'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:406: undefined reference to `set_form_sub'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:407: undefined reference to `post_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:415: undefined reference to `unpost_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:416: undefined reference to `free_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:417: undefined reference to `free_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm2':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:771: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:772: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:773: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:774: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:776: undefined reference to `new_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:777: more undefined references to `new_field' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm2':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:791: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:792: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:794: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:795: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:797: undefined reference to `set_field_buffer'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:798: more undefined references to `set_field_buffer' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm2':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:812: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:813: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:814: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:815: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:817: undefined reference to `set_field_opts'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:818: more undefined references to `set_field_opts' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm2':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:830: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:831: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:832: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:833: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:834: undefined reference to `set_field_back'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:835: more undefined references to `set_field_back' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm2':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:838: undefined reference to `new_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:840: undefined reference to `set_form_win'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:841: undefined reference to `set_form_sub'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:842: undefined reference to `post_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:850: undefined reference to `unpost_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:851: undefined reference to `free_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:852: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:853: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:854: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:855: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:856: undefined reference to `free_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:857: more undefined references to `free_field' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printFormRegClient':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1133: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1134: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1135: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1136: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1138: undefined reference to `new_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1139: more undefined references to `new_field' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printFormRegClient':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1144: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1145: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1147: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1148: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1150: undefined reference to `set_field_buffer'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1151: more undefined references to `set_field_buffer' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printFormRegClient':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1156: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1157: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1158: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1159: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1161: undefined reference to `set_field_opts'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1162: more undefined references to `set_field_opts' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printFormRegClient':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1166: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1167: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1168: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1169: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1171: undefined reference to `new_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1173: undefined reference to `set_form_win'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1174: undefined reference to `set_form_sub'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1175: undefined reference to `post_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1183: undefined reference to `unpost_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1184: undefined reference to `free_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1185: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1186: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1187: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1188: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1189: undefined reference to `free_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1190: more undefined references to `free_field' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1216: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1217: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1218: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1219: undefined reference to `new_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1221: undefined reference to `new_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1222: more undefined references to `new_field' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1234: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1235: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1237: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1238: undefined reference to `set_field_buffer'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1240: undefined reference to `set_field_buffer'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1241: more undefined references to `set_field_buffer' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1255: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1256: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1257: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1258: undefined reference to `set_field_opts'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1260: undefined reference to `set_field_opts'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1261: more undefined references to `set_field_opts' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1273: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1274: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1275: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1276: undefined reference to `set_field_back'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1277: undefined reference to `set_field_back'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1278: more undefined references to `set_field_back' follow
+/usr/bin/ld: /tmp/ccWD7EI8.o: in function `printForm':
+/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1281: undefined reference to `new_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1283: undefined reference to `set_form_win'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1284: undefined reference to `set_form_sub'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1285: undefined reference to `post_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1293: undefined reference to `unpost_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1294: undefined reference to `free_form'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1295: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1296: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1297: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1298: undefined reference to `free_field'
+/usr/bin/ld: /home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1299: undefined reference to `free_field'
+/usr/bin/ld: /tmp/ccWD7EI8.o:/home/abs/monitor/rascunhos/ncurses/biblio1-woolf-develop/testearq/ex11v04-4.c:1300: more undefined references to `free_field' follow
+collect2: error: ld returned 1 exit status
