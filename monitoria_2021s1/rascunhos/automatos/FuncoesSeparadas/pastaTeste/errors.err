@@ -1,0 +1,72 @@
+teste.c: In function ‘main’:
+teste.c:19:17: warning: variable ‘o’ set but not used [-Wunused-but-set-variable]
+     char *vetor,o;
+                 ^
+teste.c:17:9: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+     int a;
+         ^
+teste.c: In function ‘imprimeini’:
+teste.c:53:15: warning: unused variable ‘l’ [-Wunused-variable]
+     int z,k,p,l;
+               ^
+teste.c:53:13: warning: unused variable ‘p’ [-Wunused-variable]
+     int z,k,p,l;
+             ^
+teste.c:51:18: warning: unused variable ‘matriz’ [-Wunused-variable]
+     char tr='a',*matriz;
+                  ^~~~~~
+teste.c:49:23: warning: unused parameter ‘vetor’ [-Wunused-parameter]
+ int imprimeini(char * vetor,int d,int ni,int nj){
+                ~~~~~~~^~~~~
+teste.c:49:39: warning: unused parameter ‘ni’ [-Wunused-parameter]
+ int imprimeini(char * vetor,int d,int ni,int nj){
+                                   ~~~~^~
+teste.c: In function ‘ler’:
+teste.c:157:9: warning: ‘gets’ is deprecated [-Wdeprecated-declarations]
+         gets(str);
+         ^~~~
+In file included from teste.c:2:
+/usr/include/stdio.h:583:14: note: declared here
+ extern char *gets (char *__s) __wur __attribute_deprecated__;
+              ^~~~
+teste.c:185:25: warning: ‘gets’ is deprecated [-Wdeprecated-declarations]
+                         gets(str);
+                         ^~~~
+In file included from teste.c:2:
+/usr/include/stdio.h:583:14: note: declared here
+ extern char *gets (char *__s) __wur __attribute_deprecated__;
+              ^~~~
+teste.c:215:11: warning: implicit declaration of function ‘processamento’ [-Wimplicit-function-declaration]
+         a=processamento(vetor,aux,ni,nj );
+           ^~~~~~~~~~~~~
+teste.c:143:13: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+         int a,ni,nj,d,j,i,k,l;
+             ^
+teste.c: In function ‘combi’:
+teste.c:225:29: warning: unused variable ‘t’ [-Wunused-variable]
+         int i,d, j,x, k,l,m,t ;
+                             ^
+teste.c:225:27: warning: unused variable ‘m’ [-Wunused-variable]
+         int i,d, j,x, k,l,m,t ;
+                           ^
+teste.c: In function ‘processamento’:
+teste.c:347:18: warning: unused variable ‘b’ [-Wunused-variable]
+         char *a,*b;
+                  ^
+teste.c:345:23: warning: unused variable ‘p’ [-Wunused-variable]
+         int l,i,j,d,k,p,*cont;
+                       ^
+teste.c: In function ‘ler’:
+teste.c:219:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }//------------------------------
+     ^
+teste.c: In function ‘processamento’:
+teste.c:385:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+teste.c: In function ‘main’:
+teste.c:43:7: warning: ‘vetor’ is used uninitialized in this function [-Wuninitialized]
+     a=ler(vetor);
+       ^~~~~~~~~~
+/usr/bin/ld: /tmp/ccWYnoHF.o: in function `ler':
+/home/abs/monitor/rascunhos/automatos/FuncoesSeparadas/pastaTeste/teste.c:157: warning: the `gets' function is dangerous and should not be used.
