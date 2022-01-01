@@ -38,7 +38,7 @@
 #define DEBUG 0 /**< Activate/deactivate debug mode */
 #endif
 
-/** @brief Debug message if DEBUG on */
+/* @brief Debug message if DEBUG on */
 #define IFDEBUG(M) if(DEBUG) fprintf(stderr, "[DEBUG file:%s line:%d]: " M "\n", __FILE__, __LINE__); else {;}
 
 /* limits */
@@ -46,10 +46,50 @@
 #define LABL 23 /**< Number of lines in labyrinth */
 #define LABC 21 /**< Number of columns in labyrinth */
 
+
+// fantasmas //
+#define direita 1
+#define esquerda 2
+#define baixo 3
+#define cima 4
+
 /* ---------------------------------------------------------------------- */
 /* globals */
 
-static int verb = 0; /**< verbose level, global within the file */
+static int verb = 0; /* verbose level, global within the file */
+
+const char buh[10][17] =
+{
+    {"    ooooooo     "},
+    {" ooooooooooooo  "},
+    {"ooooooooooooooo "},
+    {"oo     oo     oo"},
+    {"oo   ##oo   ##oo"},
+    {"oo   ##oo   ##oo"},
+    {"oooooooooooooooo"},
+    {"oooooooooooooooo"},
+    {"ooo ooooooo oooo"},
+    {"oo   ooooo   ooo"}
+};
+
+const char logo[15][106] =
+{
+    {"oooooooooo   oooooooooo   oooooooo                        "},
+    {"oo  oooo  o  oo        o  oo                              "},
+    {"oo  o  o  o  oo  ooooooo  oo                                                 ................o....."},
+    {"oo  oooo oo  oo        o  oo                                                          ."},
+    {"oo  o        oo  ooooooo  oo                     ooooooo                              ."},
+    {"oo  o        oo        o  oo                  oooooooooooo         .                  ."},
+    {"ooooo        ooooooooooo  oooooooo          ooooooooooo            .                  ."},
+    {"oo      ooo    ooo    ooo       oo         oooooooooo              .                  ."},
+    {"oo o   o oo   oo  oo  oo o      oo        oooooooo                 .                  ."},
+    {"oo  o o  oo  oo    oo oo  o     oo        oooooooo        ...............o............................."},
+    {"oo   o   oo  oo    oo oo   o    oo         oooooooooo                                        ."},
+    {"oo       oo  oooooooo oo    o   oo          ooooooooooo                                      ."},
+    {"oo       oo  oo    oo oo     o  oo            oooooooooooo                                   ."},
+    {"oo       oo  oo    oo oo      o oo               oooooooo                                    ."},
+    {"oo       oo  oo    oo oo       ooo                        "}
+};
 
 const char labmodel[LABL][LABC] =
 {
@@ -61,17 +101,17 @@ const char labmodel[LABL][LABC] =
     {"#.##.#.######.#.##.#"},    /* 4*/
     {"#....#...##...#....#"},    /* 5*/
     {"####.###.##.###.####"},    /* 6*/
-    {"   #.#... ....#.#   "},    /* 7*/
-    {"   #.#.##-###.#.#   "},    /* 8*/
-    {"####.#.## ###.#.####"},    /* 9*/
-    {"    ...## ###...    "},    /*10*/
-    {"####.#.## ###.#.####"},    /*11*/
+    {"   #.#........#.#   "},    /* 7*/
+    {"   #.#.##--##.#.#   "},    /* 8*/
+    {"####.#.#    #.#.####"},    /* 9*/
+    {"    ...#    #...    "},    /*10*/
+    {"####.#.#    #.#.####"},    /*11*/
     {"   #.#.######.#.#   "},    /*12*/
     {"   #.#........#.#   "},    /*13*/
     {"####.#.######.#.####"},    /*14*/
     {"#........##........#"},    /*15*/
     {"#o##.###.##.###.##o#"},    /*16*/
-    {"#..#.....@......#..#"},    /*17*/
+    {"#..#..... ......#..#"},    /*17*/
     {"##.#.#.######.#.#.##"},    /*18*/
     {"#....#...##...#....#"},    /*19*/
     {"#.######.##.######.#"},    /*20*/
@@ -95,8 +135,10 @@ typedef struct st_pacman
     t_pos pos; /* current pacman position */
     t_direction dir; /* direction */
     int life; /* how many lifes pacman has */
+    int pellet;
+    int cereja1, cereja2, cereja3;
+    int next;
     int score; /* dot = 10 point; pill = 50 points; ghost = 750 points; cherry = 500 */
-    int pacdot; // armazena os pacdots coletados
 } t_pacman;
 
 typedef struct st_ghost
@@ -114,6 +156,8 @@ typedef struct st_pacdata
     t_ghost ghost[4]; /* ghost[blinky], ghost[pinky], ghost[inky], ghost[clyde] */
 } t_game;
 
+clock_t afraid_t;
+int TempoAfraid = 0;
 
 /* ---------------------------------------------------------------------- */
 /* prototypes */
@@ -121,17 +165,25 @@ typedef struct st_pacdata
 void help(void); /* print some help */
 void copyr(void); /* print version and copyright information */
 t_game upecman_init(void); /* initialize game variables */
+<<<<<<< HEAD
 void printlab(t_game g); /* print the labyrinth */
-void imprime_menu(void);
-void cor(void);
-void cor_labirinto(t_game g);
-t_game fantdirec (t_game g);
-t_game fantimov(t_game g);
-t_game pacmov(t_game g);
-t_game resetlab (t_game g);
-t_game resetpos (t_game g);
+void coresdolab(t_game g); // mostra as cores do labirinto, pellets e pac dots
+t_pacman movdopacman(t_game g, t_direction next); // funcao do movimento do pacman
 
+=======
+void printlab(int scrx, int scry, t_game g); /* print the labyrinth */
+void coresdolab(int scrx, int scry,t_game g); // mostra as cores do labirinto, pellets e pac dots
+t_pacman mvpacman(t_game g); // funcao do movimento do pacman
+t_game pastilhas(t_game g); // interacao mapa, pastilas e pacman
+t_game modosfantasmas(t_game g); // 4 modos dos fantasmas
+t_game IAfantasmas(t_game g, int i); // inteligencia artificial da movimentacao dos fantasmas 
+t_game temporizador(t_game g, int TempoInicio, int TempoAtual); // temporizador para os modos dos fantasas e da cereja
+t_game colisaofantasma(t_game g); // define a morte do pacman ou do fantasma quando se encontram
+t_game cereja(t_game g, int TempoInicio, int TempoAtual); // funcao da cereja
+void pacHelp();//função de printar a tela help 
+>>>>>>> develop
 /* ---------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
 /* Template by Dr. Beco <rcb at beco dot cc> Version 20160612.142044      */
+
 

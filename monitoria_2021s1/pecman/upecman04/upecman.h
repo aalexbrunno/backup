@@ -61,11 +61,11 @@ const char labmodel[LABL][LABC] =
     {"#.##.#.######.#.##.#"},    /* 4*/
     {"#....#...##...#....#"},    /* 5*/
     {"####.###.##.###.####"},    /* 6*/
-    {"   #.#... ....#.#   "},    /* 7*/
-    {"   #.#.##-###.#.#   "},    /* 8*/
-    {"####.#.## ###.#.####"},    /* 9*/
-    {"    ...## ###...    "},    /*10*/
-    {"####.#.## ###.#.####"},    /*11*/
+    {"   #.#...B....#.#   "},    /* 7*/
+    {"   #.#.##--##.#.#   "},    /* 8*/
+    {"####.#.#  P #.#.####"},    /* 9*/
+    {"    ...#  I #...    "},    /*10*/
+    {"####.#.#  C #.#.####"},    /*11*/
     {"   #.#.######.#.#   "},    /*12*/
     {"   #.#........#.#   "},    /*13*/
     {"####.#.######.#.####"},    /*14*/
@@ -93,10 +93,10 @@ typedef struct st_position
 typedef struct st_pacman
 {
     t_pos pos; /* current pacman position */
-    t_direction dir; /* direction */
+    t_direction dir;/* direction */
+    int coin; /* pac dots */
     int life; /* how many lifes pacman has */
     int score; /* dot = 10 point; pill = 50 points; ghost = 750 points; cherry = 500 */
-    int pacdot; // armazena os pacdots coletados
 } t_pacman;
 
 typedef struct st_ghost
@@ -112,8 +112,11 @@ typedef struct st_pacdata
     char lab[LABL][LABC]; /* the labyrinth map */
     t_pacman pacman; /* pacman data */
     t_ghost ghost[4]; /* ghost[blinky], ghost[pinky], ghost[inky], ghost[clyde] */
+    t_pacman cherry; /* cherry */
 } t_game;
 
+int frightened;
+clock_t afraid_t;
 
 /* ---------------------------------------------------------------------- */
 /* prototypes */
@@ -122,16 +125,16 @@ void help(void); /* print some help */
 void copyr(void); /* print version and copyright information */
 t_game upecman_init(void); /* initialize game variables */
 void printlab(t_game g); /* print the labyrinth */
-void imprime_menu(void);
-void cor(void);
-void cor_labirinto(t_game g);
-t_game fantdirec (t_game g);
-t_game fantimov(t_game g);
-t_game pacmov(t_game g);
-t_game resetlab (t_game g);
-t_game resetpos (t_game g);
+t_pacman movPac(t_game g, t_direction prox); /* character movimentation */ 
+t_game comecome(t_game g); /*eat coins*/
+void corlab(t_game g); /* to color the coins */ 
+t_game modofantasma(t_game g); /* specify the mode of the ghosts */
+t_game mortalPac(t_game g); /* interaction between the pacman and ghost */
+t_game gps(t_game g, int i); /* route calculation */
+t_game alternador(t_game g, clock_t start_t); /* change the ghost's modes */
+void pacWelcome(void); /* print the instructions and the objective of the game */
+
 
 /* ---------------------------------------------------------------------- */
 /* vi: set ai et ts=4 sw=4 tw=0 wm=0 fo=croql : C config for Vim modeline */
 /* Template by Dr. Beco <rcb at beco dot cc> Version 20160612.142044      */
-
